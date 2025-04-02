@@ -18,11 +18,11 @@ namespace Valores_boolean
             bool valor1, valor2;
 
             Console.Write("Digite um valor boolean (true/false): ");
-            valor1 = bool.Parse(Console.ReadLine());
+            valor1 = bool.Parse(Console.ReadLine().ToLower());
 
 
             Console.Write("Digite outro valor boolean (true/false): ");
-            valor2 = bool.Parse(Console.ReadLine());
+            valor2 = bool.Parse(Console.ReadLine().ToLower());
 
             if (valor1 == valor2)
             {
