@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\LogicaComCsharp\\Formas_de_pagamento\\",
+  "WorkspaceRootPath": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\LogicaComCsharp\\Exercicios03\\Formas_de_pagamento\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00244ED6-952C-4E7A-BB84-4C2C4B1B7123}|Formas_de_pagamento\\Formas_de_pagamento.csproj|c:\\users\\victor.cneto1\\source\\repos\\logicacomcsharp\\logicacomcsharp\\formas_de_pagamento\\formas_de_pagamento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00244ED6-952C-4E7A-BB84-4C2C4B1B7123}|Formas_de_pagamento\\Formas_de_pagamento.csproj|c:\\users\\victor.cneto1\\source\\repos\\logicacomcsharp\\logicacomcsharp\\exercicios03\\formas_de_pagamento\\formas_de_pagamento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00244ED6-952C-4E7A-BB84-4C2C4B1B7123}|Formas_de_pagamento\\Formas_de_pagamento.csproj|solutionrelative:formas_de_pagamento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,21 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\LogicaComCsharp\\Formas_de_pagamento\\Formas_de_pagamento\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\LogicaComCsharp\\Exercicios03\\Formas_de_pagamento\\Formas_de_pagamento\\Program.cs",
               "RelativeDocumentMoniker": "Formas_de_pagamento\\Program.cs",
-              "ToolTip": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\LogicaComCsharp\\Formas_de_pagamento\\Formas_de_pagamento\\Program.cs",
+              "ToolTip": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\LogicaComCsharp\\Exercicios03\\Formas_de_pagamento\\Formas_de_pagamento\\Program.cs",
               "RelativeToolTip": "Formas_de_pagamento\\Program.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAwHoAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAwHAAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T11:27:51.85Z",
               "EditorCaption": ""
