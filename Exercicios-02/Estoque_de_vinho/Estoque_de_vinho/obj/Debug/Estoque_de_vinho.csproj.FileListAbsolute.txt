@@ -1,7 +1,0 @@
-C:\Users\victor.cneto1\source\repos\LogicaComCsharp\LogicaComCsharp\Estoque_de_vinho\Estoque_de_vinho\bin\Debug\Estoque_de_vinho.exe.config
-C:\Users\victor.cneto1\source\repos\LogicaComCsharp\LogicaComCsharp\Estoque_de_vinho\Estoque_de_vinho\bin\Debug\Estoque_de_vinho.exe
-C:\Users\victor.cneto1\source\repos\LogicaComCsharp\LogicaComCsharp\Estoque_de_vinho\Estoque_de_vinho\bin\Debug\Estoque_de_vinho.pdb
-C:\Users\victor.cneto1\source\repos\LogicaComCsharp\LogicaComCsharp\Estoque_de_vinho\Estoque_de_vinho\obj\Debug\Estoque_de_vinho.csproj.AssemblyReference.cache
-C:\Users\victor.cneto1\source\repos\LogicaComCsharp\LogicaComCsharp\Estoque_de_vinho\Estoque_de_vinho\obj\Debug\Estoque_de_vinho.csproj.CoreCompileInputs.cache
-C:\Users\victor.cneto1\source\repos\LogicaComCsharp\LogicaComCsharp\Estoque_de_vinho\Estoque_de_vinho\obj\Debug\Estoque_de_vinho.exe
-C:\Users\victor.cneto1\source\repos\LogicaComCsharp\LogicaComCsharp\Estoque_de_vinho\Estoque_de_vinho\obj\Debug\Estoque_de_vinho.pdb
