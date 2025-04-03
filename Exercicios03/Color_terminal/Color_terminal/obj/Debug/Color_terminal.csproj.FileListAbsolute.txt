@@ -1,7 +1,0 @@
-C:\Users\victor.cneto1\source\repos\LogicaComCsharp\LogicaComCsharp\Exercicios03\Color_terminal\Color_terminal\bin\Debug\Color_terminal.exe.config
-C:\Users\victor.cneto1\source\repos\LogicaComCsharp\LogicaComCsharp\Exercicios03\Color_terminal\Color_terminal\bin\Debug\Color_terminal.exe
-C:\Users\victor.cneto1\source\repos\LogicaComCsharp\LogicaComCsharp\Exercicios03\Color_terminal\Color_terminal\bin\Debug\Color_terminal.pdb
-C:\Users\victor.cneto1\source\repos\LogicaComCsharp\LogicaComCsharp\Exercicios03\Color_terminal\Color_terminal\obj\Debug\Color_terminal.csproj.AssemblyReference.cache
-C:\Users\victor.cneto1\source\repos\LogicaComCsharp\LogicaComCsharp\Exercicios03\Color_terminal\Color_terminal\obj\Debug\Color_terminal.csproj.CoreCompileInputs.cache
-C:\Users\victor.cneto1\source\repos\LogicaComCsharp\LogicaComCsharp\Exercicios03\Color_terminal\Color_terminal\obj\Debug\Color_terminal.exe
-C:\Users\victor.cneto1\source\repos\LogicaComCsharp\LogicaComCsharp\Exercicios03\Color_terminal\Color_terminal\obj\Debug\Color_terminal.pdb
