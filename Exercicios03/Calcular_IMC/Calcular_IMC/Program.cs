@@ -25,6 +25,10 @@ namespace Calcular_IMC
     {
         static void Main(string[] args)
         {
+
+
+
+            1
             double peso, altura, imc;
 
             Console.Write("Digite sua altura: ");

@@ -1,0 +1,7 @@
+C:\Users\victor.cneto1\source\repos\LogicaComCsharp\LogicaComCsharp\Exercicios03\Altura_francisco\Altura_francisco\obj\Debug\Altura_francisco.csproj.AssemblyReference.cache
+C:\Users\victor.cneto1\source\repos\LogicaComCsharp\LogicaComCsharp\Exercicios03\Altura_francisco\Altura_francisco\obj\Debug\Altura_francisco.csproj.CoreCompileInputs.cache
+C:\Users\victor.cneto1\source\repos\LogicaComCsharp\LogicaComCsharp\Exercicios03\Altura_francisco\Altura_francisco\bin\Debug\Altura_francisco.exe.config
+C:\Users\victor.cneto1\source\repos\LogicaComCsharp\LogicaComCsharp\Exercicios03\Altura_francisco\Altura_francisco\bin\Debug\Altura_francisco.exe
+C:\Users\victor.cneto1\source\repos\LogicaComCsharp\LogicaComCsharp\Exercicios03\Altura_francisco\Altura_francisco\bin\Debug\Altura_francisco.pdb
+C:\Users\victor.cneto1\source\repos\LogicaComCsharp\LogicaComCsharp\Exercicios03\Altura_francisco\Altura_francisco\obj\Debug\Altura_francisco.exe
+C:\Users\victor.cneto1\source\repos\LogicaComCsharp\LogicaComCsharp\Exercicios03\Altura_francisco\Altura_francisco\obj\Debug\Altura_francisco.pdb
