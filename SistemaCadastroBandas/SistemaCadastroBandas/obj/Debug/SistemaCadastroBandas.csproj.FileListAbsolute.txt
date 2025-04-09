@@ -1,0 +1,7 @@
+C:\Users\victor.cneto1\source\repos\LogicaComCsharp\SistemaCadastroBandas\SistemaCadastroBandas\obj\Debug\SistemaCadastroBandas.csproj.AssemblyReference.cache
+C:\Users\victor.cneto1\source\repos\LogicaComCsharp\SistemaCadastroBandas\SistemaCadastroBandas\obj\Debug\SistemaCadastroBandas.csproj.CoreCompileInputs.cache
+C:\Users\victor.cneto1\source\repos\LogicaComCsharp\SistemaCadastroBandas\SistemaCadastroBandas\bin\Debug\SistemaCadastroBandas.exe.config
+C:\Users\victor.cneto1\source\repos\LogicaComCsharp\SistemaCadastroBandas\SistemaCadastroBandas\bin\Debug\SistemaCadastroBandas.exe
+C:\Users\victor.cneto1\source\repos\LogicaComCsharp\SistemaCadastroBandas\SistemaCadastroBandas\bin\Debug\SistemaCadastroBandas.pdb
+C:\Users\victor.cneto1\source\repos\LogicaComCsharp\SistemaCadastroBandas\SistemaCadastroBandas\obj\Debug\SistemaCadastroBandas.exe
+C:\Users\victor.cneto1\source\repos\LogicaComCsharp\SistemaCadastroBandas\SistemaCadastroBandas\obj\Debug\SistemaCadastroBandas.pdb
