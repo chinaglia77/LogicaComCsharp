@@ -10,12 +10,11 @@ namespace Menu
     {
         public static void cadastrarPedido()
         {
-            Console.Clear(); // Limpa a tela para uma nova interação
+            Console.Clear();
             string cadastroPedido = "";
 
-            // Título estilizado para o pedido
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine(@"
+            Console.Write(@"
 
 ░█████╗░░█████╗░██████╗░░█████╗░░██████╗████████╗██████╗░░█████╗░██████╗░
 ██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗
@@ -43,7 +42,9 @@ namespace Menu
             Console.ForegroundColor = ConsoleColor.Red;
             Console.Write($"{cadastroPedido.ToUpper()}");
             Console.ResetColor();
-            Console.WriteLine(" cadastrado com sucesso!");
+            Console.Write(" cadastrado com sucesso!");
+
+            Console.WriteLine("\n");
         }
     }
     }
