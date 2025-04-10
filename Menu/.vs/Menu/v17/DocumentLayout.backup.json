@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\Menu\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{990D411C-88E3-459D-B2BD-79207BDB864A}|Menu\\Menu.csproj|c:\\users\\victor.cneto1\\source\\repos\\logicacomcsharp\\menu\\menu\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{990D411C-88E3-459D-B2BD-79207BDB864A}|Menu\\Menu.csproj|solutionrelative:menu\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{990D411C-88E3-459D-B2BD-79207BDB864A}|Menu\\Menu.csproj|c:\\users\\victor.cneto1\\source\\repos\\logicacomcsharp\\menu\\menu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{990D411C-88E3-459D-B2BD-79207BDB864A}|Menu\\Menu.csproj|solutionrelative:menu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{990D411C-88E3-459D-B2BD-79207BDB864A}|Menu\\Menu.csproj|c:\\users\\victor.cneto1\\source\\repos\\logicacomcsharp\\menu\\menu\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{990D411C-88E3-459D-B2BD-79207BDB864A}|Menu\\Menu.csproj|solutionrelative:menu\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,18 +25,40 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\Menu\\Menu\\Pedido.cs",
+              "RelativeDocumentMoniker": "Menu\\Pedido.cs",
+              "ToolTip": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\Menu\\Menu\\Pedido.cs",
+              "RelativeToolTip": "Menu\\Pedido.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T14:37:29.152Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\Menu\\Menu\\Produto.cs",
+              "RelativeDocumentMoniker": "Menu\\Produto.cs",
+              "ToolTip": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\Menu\\Menu\\Produto.cs*",
+              "RelativeToolTip": "Menu\\Produto.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvx4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T14:37:06.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\Menu\\Menu\\Program.cs",
               "RelativeDocumentMoniker": "Menu\\Program.cs",
-              "ToolTip": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\Menu\\Menu\\Program.cs*",
-              "RelativeToolTip": "Menu\\Program.cs*",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAmwEQAAAAqAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\Menu\\Menu\\Program.cs",
+              "RelativeToolTip": "Menu\\Program.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAUwFoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T11:59:30.077Z",
               "EditorCaption": ""

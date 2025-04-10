@@ -32,13 +32,36 @@ namespace Menu
         );
                 Console.ResetColor();
 
-                Console.WriteLine("\nMenu de cadastro\n");
-                Console.WriteLine("1 - Cadastro de cliente");
-                Console.WriteLine("2 - Código de fornecedor");
-                Console.WriteLine("3 - Cadastro de funcionario");
-                Console.WriteLine("4 - Cadastro de produto");
-                Console.WriteLine("5 - Cadastro de pedido");
-                Console.WriteLine("0 - Sair do programa");
+                // Exibe os números em verde e o texto na cor padrão
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.Write("1 ");
+                Console.ResetColor();
+                Console.WriteLine("- Cadastro de cliente");
+
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.Write("2 ");
+                Console.ResetColor();
+                Console.WriteLine("- Código de fornecedor");
+
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.Write("3 ");
+                Console.ResetColor();
+                Console.WriteLine("- Cadastro de funcionario");
+
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.Write("4 ");
+                Console.ResetColor();
+                Console.WriteLine("- Cadastro de produto");
+
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.Write("5 ");
+                Console.ResetColor();
+                Console.WriteLine("- Cadastro de pedido");
+
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.Write("0 ");
+                Console.ResetColor();
+                Console.WriteLine("- Sair do programa");
 
                 Console.Write("\nEscolha uma das opções: ");
 
@@ -51,22 +74,22 @@ namespace Menu
                 switch (opcao) 
                 {
                     case 1:
-                        CadastrarCliente();
+                        Cliente.CadastrarCliente();
                         break;
                     case 2:
-                        cadastrarCodigo();
+                        CodigoFornecedor.cadastrarCodigo();
                         break;
 
                     case 3:
-                        cadastrarFuncionario();
+                        Funcionario.cadastrarFuncionario();
                         break;
 
                     case 4:
-                        cadastrarProduto();
+                        Produto.cadastrarProduto();
                         break;
 
                     case 5:
-                        cadastrarPedido();
+                        Pedido.cadastrarPedido();
                         break;
 
                     case 0:
@@ -91,68 +114,6 @@ namespace Menu
             }
 
             }
-        static void CadastrarCliente() 
-        {
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("\nCadastro Clientes");
-            Console.ResetColor();
-            Console.Write("Nome do cliente: ");
-            string nomeCliente = Console.ReadLine();
-
-            Console.WriteLine($"Cliente {nomeCliente}, cadastrado com sucesso !");
-        }
-
-        static void cadastrarCodigo() 
-        {
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine("\nCódigo do fornecedor");
-            Console.ResetColor();
-
-            Console.Write("Código do fornecedor: ");
-
-            while (!int.TryParse(Console.ReadLine(), out codigoFornecedor))
-            {
-                Console.WriteLine("O codigo recebe apenas numeros, tente novamente...");
-            }
-
-            Console.WriteLine($"Codigo {codigoFornecedor}, cadastrado com sucesso !");
-        }
-
-        static void cadastrarFuncionario() 
-        {
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("\nCadastro funcionario");
-            Console.ResetColor();
-            Console.Write("Nome do funcionario: ");
-
-            string nomeFuncionario = Console.ReadLine();
-
-            Console.WriteLine($"Funcionario {nomeFuncionario}, cadastrado com sucesso !");
-        }
-
-        static void cadastrarProduto()
-        {
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("\nCadastro produto");
-            Console.ResetColor();
-            Console.Write("Nome do produto: ");
-
-            string nomeProduto = Console.ReadLine();
-
-            Console.WriteLine($"Produto {nomeProduto}, cadastrado com sucesso !");
-        }
-        
-        static void cadastrarPedido() 
-        {
-            Console.ForegroundColor = ConsoleColor.Magenta;
-            Console.WriteLine("\nCadastro de pedido");
-            Console.ResetColor();
-
-            Console.Write("Cadastro do pedido: ");
-            string cadastroPedido = Console.ReadLine();
-
-            Console.WriteLine($"Pedido {cadastroPedido}, cadastrado com sucesso !");
-        }
     }
     }
 
