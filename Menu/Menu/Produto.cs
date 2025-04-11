@@ -30,10 +30,8 @@ namespace Menu
 ██║░░░░░██║░░██║╚█████╔╝██████╔╝╚██████╔╝░░░██║░░░╚█████╔╝
 ╚═╝░░░░░╚═╝░░╚═╝░╚════╝░╚═════╝░░╚═════╝░░░░╚═╝░░░░╚════╝░");
 
-            Console.ResetColor();
+            Console.Write("\n");
 
-            Console.ForegroundColor = ConsoleColor.DarkMagenta;
-            Console.WriteLine("\nCadastro produto");
             Console.ResetColor();
 
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
@@ -41,13 +39,15 @@ namespace Menu
             Console.ResetColor();
             cadastroPedido = Console.ReadLine();
 
-            Console.Write($"\nPedido");
+            Console.Write("\n");
+
+            Console.Write($"Pedido,");
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
-            Console.Write($", {cadastroPedido}");
+            Console.Write($" {cadastroPedido.ToUpper()}");
             Console.ResetColor();
             Console.Write(" com sucesso !");
 
-
+            Console.WriteLine("\n");
         }
     }
 }

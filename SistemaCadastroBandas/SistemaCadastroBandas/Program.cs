@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace SistemaCadastroBandas
@@ -54,7 +55,7 @@ namespace SistemaCadastroBandas
 
                 Console.Write("-> ");
 
-                while (!int.TryParse(Console.ReadLine(), out opcao) || opcao < 0 || opcao > 3) 
+                while (!int.TryParse(Console.ReadLine(), out opcao) || opcao <= 0 || opcao > 3) 
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.Write("Digite a opcao corretamente, tente novamente: ");
@@ -64,16 +65,22 @@ namespace SistemaCadastroBandas
                 switch (opcao) 
                 {
                     case 1:
-                        cadastrarAlbumBanda();
+                        cadastrarMusicaBanda();
                         break;
                         
                     case 2:
-                        cadastrarAlbumArtista();
+                        cadastrarMusicaArtista();
                         break;
 
                     case 3:
                         Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("Saindo do programa...");
+                        Console.Write("Saindo do programa");
+
+                        for (int i = 0; i < 3; i++) 
+                        {
+                            Thread.Sleep(500);
+                            Console.Write(".");
+                        }
                         Console.ResetColor();
                         break;
 
@@ -92,28 +99,34 @@ namespace SistemaCadastroBandas
             }
         }
 
-        static void cadastrarAlbumBanda() 
+        static void cadastrarMusicaBanda() 
         {
             Console.Clear();
-            Console.ForegroundColor = ConsoleColor.Red;
             Console.Write(@"
-░█████╗░░█████╗░██████╗░░█████╗░░██████╗████████╗██████╗░░█████╗░██████╗░  ██████╗░░█████╗░
-██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗  ██╔══██╗██╔══██╗
-██║░░╚═╝███████║██║░░██║███████║╚█████╗░░░░██║░░░██████╔╝███████║██████╔╝  ██║░░██║██║░░██║
-██║░░██╗██╔══██║██║░░██║██╔══██║░╚═══██╗░░░██║░░░██╔══██╗██╔══██║██╔══██╗  ██║░░██║██║░░██║
-╚█████╔╝██║░░██║██████╔╝██║░░██║██████╔╝░░░██║░░░██║░░██║██║░░██║██║░░██║  ██████╔╝╚█████╔╝
-░╚════╝░╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝  ╚═════╝░░╚════╝░
+░█████╗░░█████╗░██████╗░░█████╗░░██████╗████████╗██████╗░░█████╗░██████╗░
+██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗
+██║░░╚═╝███████║██║░░██║███████║╚█████╗░░░░██║░░░██████╔╝███████║██████╔╝
+██║░░██╗██╔══██║██║░░██║██╔══██║░╚═══██╗░░░██║░░░██╔══██╗██╔══██║██╔══██╗
+╚█████╔╝██║░░██║██████╔╝██║░░██║██████╔╝░░░██║░░░██║░░██║██║░░██║██║░░██║
+░╚════╝░╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝
 
-░█████╗░██╗░░░░░██████╗░██╗░░░██╗███╗░░░███╗  ██████╗░░█████╗░  ██████╗░░█████╗░███╗░░██╗██████╗░░█████╗░
-██╔══██╗██║░░░░░██╔══██╗██║░░░██║████╗░████║  ██╔══██╗██╔══██╗  ██╔══██╗██╔══██╗████╗░██║██╔══██╗██╔══██╗
-███████║██║░░░░░██████╦╝██║░░░██║██╔████╔██║  ██║░░██║███████║  ██████╦╝███████║██╔██╗██║██║░░██║███████║
-██╔══██║██║░░░░░██╔══██╗██║░░░██║██║╚██╔╝██║  ██║░░██║██╔══██║  ██╔══██╗██╔══██║██║╚████║██║░░██║██╔══██║
-██║░░██║███████╗██████╦╝╚██████╔╝██║░╚═╝░██║  ██████╔╝██║░░██║  ██████╦╝██║░░██║██║░╚███║██████╔╝██║░░██║
-╚═╝░░╚═╝╚══════╝╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝  ╚═════╝░╚═╝░░╚═╝  ╚═════╝░╚═╝░░╚═╝╚═╝░░╚══╝╚═════╝░╚═╝░░╚═╝");
-            Console.ResetColor();
+███╗░░░███╗██╗░░░██╗░██████╗██╗░█████╗░░█████╗░  ██████╗░░█████╗░
+████╗░████║██║░░░██║██╔════╝██║██╔══██╗██╔══██╗  ██╔══██╗██╔══██╗
+██╔████╔██║██║░░░██║╚█████╗░██║██║░░╚═╝███████║  ██║░░██║███████║
+██║╚██╔╝██║██║░░░██║░╚═══██╗██║██║░░██╗██╔══██║  ██║░░██║██╔══██║
+██║░╚═╝░██║╚██████╔╝██████╔╝██║╚█████╔╝██║░░██║  ██████╔╝██║░░██║
+╚═╝░░░░░╚═╝░╚═════╝░╚═════╝░╚═╝░╚════╝░╚═╝░░╚═╝  ╚═════╝░╚═╝░░╚═╝
 
+██████╗░░█████╗░███╗░░██╗██████╗░░█████╗░
+██╔══██╗██╔══██╗████╗░██║██╔══██╗██╔══██╗
+██████╦╝███████║██╔██╗██║██║░░██║███████║
+██╔══██╗██╔══██║██║╚████║██║░░██║██╔══██║
+██████╦╝██║░░██║██║░╚███║██████╔╝██║░░██║
+╚═════╝░╚═╝░░╚═╝╚═╝░░╚══╝╚═════╝░╚═╝░░╚═╝");
+
+            Console.WriteLine("\n");
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.Write("\nNome da banda: ");
+            Console.Write("Nome da banda: ");
             Console.ResetColor();
             string nomeBanda = Console.ReadLine();
 
@@ -131,45 +144,70 @@ namespace SistemaCadastroBandas
             while (!int.TryParse(Console.ReadLine(), out qtdMusicas) || qtdMusicas < 0) 
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.Write("Dado invalido digite um numero, tente novamente: \n");
+                Console.Write("Dado invalido digite um numero, tente novamente: ");
                 Console.ResetColor();
             }
 
+            Console.Write("\n");
             for (int i = 1; i <= qtdMusicas; i++)
             {
-                Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.Write($"{i} - Musica: ");
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.Write($"Nome da {i}ª música: ");
                 Console.ResetColor();
 
                 string nomeMusica = Console.ReadLine();
+
+                while (String.IsNullOrEmpty(nomeMusica)) 
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write("Digite uma música válida, por favor: ");
+                    Console.ResetColor();
+
+                    nomeMusica = Console.ReadLine();
+                }
+
             }
 
-            Console.Write($"\nTodas as {qtdMusicas} musicas do {nomeAlbum.ToUpper()} foram adicionadas com");
+            Console.Write("\n");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("Salvando dados");
+
+                for (int i = 0; i < 3; i++) 
+                {
+                    Thread.Sleep(500);
+                    Console.Write(".");
+                }
+            Console.ResetColor();
+
+            Thread.Sleep(1500);
+
+            Console.WriteLine("\n");
+
+            Console.Write($"Todas as {qtdMusicas} musicas do {nomeAlbum.ToUpper()} foram salvas com");
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write(" sucesso !\n");
             Console.ResetColor();
            
         }
 
-        static void cadastrarAlbumArtista()
+        static void cadastrarMusicaArtista()
         {
             Console.Clear();
-            Console.ResetColor();
-            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(@"
-░█████╗░░█████╗░██████╗░░█████╗░░██████╗████████╗██████╗░░█████╗░  ██████╗░░█████╗░
-██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔════╝╚══██╔══╝██╔══██╗██╔══██╗  ██╔══██╗██╔══██╗
-██║░░╚═╝███████║██║░░██║███████║╚█████╗░░░░██║░░░██████╔╝██║░░██║  ██║░░██║██║░░██║
-██║░░██╗██╔══██║██║░░██║██╔══██║░╚═══██╗░░░██║░░░██╔══██╗██║░░██║  ██║░░██║██║░░██║
-╚█████╔╝██║░░██║██████╔╝██║░░██║██████╔╝░░░██║░░░██║░░██║╚█████╔╝  ██████╔╝╚█████╔╝
-░╚════╝░╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░  ╚═════╝░░╚════╝░
 
-░█████╗░██╗░░░░░██████╗░██╗░░░██╗███╗░░░███╗  ██████╗░░█████╗░
-██╔══██╗██║░░░░░██╔══██╗██║░░░██║████╗░████║  ██╔══██╗██╔══██╗
-███████║██║░░░░░██████╦╝██║░░░██║██╔████╔██║  ██║░░██║██║░░██║
-██╔══██║██║░░░░░██╔══██╗██║░░░██║██║╚██╔╝██║  ██║░░██║██║░░██║
-██║░░██║███████╗██████╦╝╚██████╔╝██║░╚═╝░██║  ██████╔╝╚█████╔╝
-╚═╝░░╚═╝╚══════╝╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝  ╚═════╝░░╚════╝░
+░█████╗░░█████╗░██████╗░░█████╗░░██████╗████████╗██████╗░░█████╗░██████╗░
+██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗
+██║░░╚═╝███████║██║░░██║███████║╚█████╗░░░░██║░░░██████╔╝███████║██████╔╝
+██║░░██╗██╔══██║██║░░██║██╔══██║░╚═══██╗░░░██║░░░██╔══██╗██╔══██║██╔══██╗
+╚█████╔╝██║░░██║██████╔╝██║░░██║██████╔╝░░░██║░░░██║░░██║██║░░██║██║░░██║
+░╚════╝░╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝
+
+███╗░░░███╗██╗░░░██╗░██████╗██╗░█████╗░░█████╗░  ██████╗░░█████╗░
+████╗░████║██║░░░██║██╔════╝██║██╔══██╗██╔══██╗  ██╔══██╗██╔══██╗
+██╔████╔██║██║░░░██║╚█████╗░██║██║░░╚═╝███████║  ██║░░██║██║░░██║
+██║╚██╔╝██║██║░░░██║░╚═══██╗██║██║░░██╗██╔══██║  ██║░░██║██║░░██║
+██║░╚═╝░██║╚██████╔╝██████╔╝██║╚█████╔╝██║░░██║  ██████╔╝╚█████╔╝
+╚═╝░░░░░╚═╝░╚═════╝░╚═════╝░╚═╝░╚════╝░╚═╝░░╚═╝  ╚═════╝░░╚════╝░
 
 ░█████╗░██████╗░████████╗██╗░██████╗████████╗░█████╗░
 ██╔══██╗██╔══██╗╚══██╔══╝██║██╔════╝╚══██╔══╝██╔══██╗
@@ -177,19 +215,18 @@ namespace SistemaCadastroBandas
 ██╔══██║██╔══██╗░░░██║░░░██║░╚═══██╗░░░██║░░░██╔══██║
 ██║░░██║██║░░██║░░░██║░░░██║██████╔╝░░░██║░░░██║░░██║
 ╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░╚═╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝");
-            Console.ResetColor();
 
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write("\nNome do artista: ");
             Console.ResetColor();
             string nomeArtista = Console.ReadLine();
 
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write($"Nome do album do artista {nomeArtista}: ");
             Console.ResetColor();
             string nomeAlbum = Console.ReadLine();
 
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write($"Quantas musicas o album {nomeAlbum} possui: ");
             Console.ResetColor();
 
@@ -201,18 +238,41 @@ namespace SistemaCadastroBandas
                 Console.ResetColor();
             }
 
+            Console.Write("\n");
             for (int i = 1; i <= qtdMusicas; i++)
             {
-                Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.Write($"Nome do {i} album: ");
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.Write($"Nome da {i}ª música: ");
                 Console.ResetColor();
 
                 string nomeMusica = Console.ReadLine();
+
+                while (string.IsNullOrWhiteSpace(nomeMusica))
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write("Digite uma música válida, por favor: ");
+                    Console.ResetColor();
+
+                    nomeMusica = Console.ReadLine();
+                }
             }
 
-            Console.Write($"\nTodos as {qtdMusicas} musicas do(a) artista {nomeArtista.ToUpper()} foram adicionadas com");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("\nSalvando dados");
+
+            for (int i = 0; i < 3; i++)
+            {
+                Thread.Sleep(500); 
+                Console.Write(".");
+            }
+
+            Thread.Sleep(1000);
+
+            Console.WriteLine("\n");
+            Console.ResetColor();
+            Console.Write($"Todos as {qtdMusicas} musicas do(a) artista {nomeArtista.ToUpper()} foram salvas com");
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.Write(" sucesso !");
+            Console.Write(" sucesso !\n");
             Console.ResetColor();
         }
     }

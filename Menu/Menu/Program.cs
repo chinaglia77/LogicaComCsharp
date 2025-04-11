@@ -106,7 +106,7 @@ namespace Menu
                 
                 if (opcao != 0) 
                 {
-                    Console.WriteLine("\nPressione qualquer tecla para continuar...");
+                    Console.Write("Pressione qualquer tecla para continuar...");
                     Console.ReadKey();
                 }
 
