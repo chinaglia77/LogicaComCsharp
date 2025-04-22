@@ -3,14 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\Pokedex\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Pokedex||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1991533-A445-4AA4-A286-0CF9DA3A6043}|Pokedex\\Pokedex.csproj|c:\\users\\victor.cneto1\\source\\repos\\logicacomcsharp\\pokedex\\pokedex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D1991533-A445-4AA4-A286-0CF9DA3A6043}|Pokedex\\Pokedex.csproj|C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\Pokedex\\pokedex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1991533-A445-4AA4-A286-0CF9DA3A6043}|Pokedex\\Pokedex.csproj|solutionrelative:pokedex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1991533-A445-4AA4-A286-0CF9DA3A6043}|Pokedex\\Pokedex.csproj|c:\\users\\victor.cneto1\\source\\repos\\logicacomcsharp\\pokedex\\pokedex\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,24 +19,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Pokedex",
-              "DocumentMoniker": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\Pokedex\\Pokedex\\Pokedex.csproj",
-              "RelativeDocumentMoniker": "Pokedex\\Pokedex.csproj",
-              "ToolTip": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\Pokedex\\Pokedex\\Pokedex.csproj",
-              "RelativeToolTip": "Pokedex\\Pokedex.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-17T14:52:42.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\Pokedex\\Pokedex\\Program.cs",
               "RelativeDocumentMoniker": "Pokedex\\Program.cs",
               "ToolTip": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\Pokedex\\Pokedex\\Program.cs",
               "RelativeToolTip": "Pokedex\\Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAwDsAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwEcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T13:33:53.454Z",
               "EditorCaption": ""
