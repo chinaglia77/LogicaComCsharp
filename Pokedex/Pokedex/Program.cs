@@ -54,20 +54,16 @@ namespace Pokedex
 
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("\nLISTAGEM DE POKEMONS");
-            Console.WriteLine("NUMERO POKEMON\t\tNOME POKEMON\t\tTIPO DO POKEMON\t\tPESO\t\tTAMANHO");
             Console.ResetColor();
 
             for (int i = 0; i < numeroPokemon.Length; i++)
             {
-                Console.Write(numeroPokemon[i]); 
-                Console.Write("\t\t\t");  
-                Console.Write(nomePokemon[i]);  
-                Console.Write("\t\t"); 
-                Console.Write(tipoPokemon[i]);  
-                Console.Write("\t\t");  
-                Console.Write(pesoPokemon[i]);  
-                Console.Write("\t\t");  
-                Console.WriteLine(tamanhoPokemon[i]);  
+                Console.WriteLine("ID:     " + numeroPokemon[i]); 
+                Console.WriteLine("Nome:   " + nomePokemon[i]);  
+                Console.WriteLine("Tipo:   " + tipoPokemon[i]);  
+                Console.WriteLine("Altura: " + pesoPokemon[i]);  
+                Console.WriteLine("Peso:   " + tamanhoPokemon[i]);
+                Console.WriteLine("=============================================");
             }
 
 
