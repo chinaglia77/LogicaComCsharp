@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\MenuExercicios\\",
+  "WorkspaceRootPath": "C:\\Users\\china\\Documents\\GitHub\\LogicaComCsharp\\MenuExercicios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E037823F-4C70-4C68-B215-A8A2364D1B0C}|MenuExercicios\\MenuExercicios.csproj|c:\\users\\victor.cneto1\\source\\repos\\logicacomcsharp\\menuexercicios\\menuexercicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E037823F-4C70-4C68-B215-A8A2364D1B0C}|MenuExercicios\\MenuExercicios.csproj|c:\\users\\china\\documents\\github\\logicacomcsharp\\menuexercicios\\menuexercicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E037823F-4C70-4C68-B215-A8A2364D1B0C}|MenuExercicios\\MenuExercicios.csproj|solutionrelative:menuexercicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,15 +20,19 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\MenuExercicios\\MenuExercicios\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\china\\Documents\\GitHub\\LogicaComCsharp\\MenuExercicios\\MenuExercicios\\Program.cs",
               "RelativeDocumentMoniker": "MenuExercicios\\Program.cs",
-              "ToolTip": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\MenuExercicios\\MenuExercicios\\Program.cs",
+              "ToolTip": "C:\\Users\\china\\Documents\\GitHub\\LogicaComCsharp\\MenuExercicios\\MenuExercicios\\Program.cs",
               "RelativeToolTip": "MenuExercicios\\Program.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAmwFUAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAmwGgAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T11:21:10.846Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
