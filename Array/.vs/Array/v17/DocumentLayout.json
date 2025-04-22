@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\Array\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0A205C-10CA-460B-B352-9890D4321933}|Array\\Array.csproj|c:\\users\\victor.cneto1\\source\\repos\\logicacomcsharp\\array\\array\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0A205C-10CA-460B-B352-9890D4321933}|Array\\Array.csproj|solutionrelative:array\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\Array\\Array\\Program.cs",
+              "RelativeDocumentMoniker": "Array\\Program.cs",
+              "ToolTip": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\Array\\Array\\Program.cs",
+              "RelativeToolTip": "Array\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T12:36:28.581Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

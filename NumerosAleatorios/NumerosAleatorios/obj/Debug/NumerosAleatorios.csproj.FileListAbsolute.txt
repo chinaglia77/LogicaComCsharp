@@ -1,0 +1,7 @@
+C:\Users\victor.cneto1\source\repos\LogicaComCsharp\NumerosAleatorios\NumerosAleatorios\bin\Debug\NumerosAleatorios.exe.config
+C:\Users\victor.cneto1\source\repos\LogicaComCsharp\NumerosAleatorios\NumerosAleatorios\bin\Debug\NumerosAleatorios.exe
+C:\Users\victor.cneto1\source\repos\LogicaComCsharp\NumerosAleatorios\NumerosAleatorios\bin\Debug\NumerosAleatorios.pdb
+C:\Users\victor.cneto1\source\repos\LogicaComCsharp\NumerosAleatorios\NumerosAleatorios\obj\Debug\NumerosAleatorios.csproj.AssemblyReference.cache
+C:\Users\victor.cneto1\source\repos\LogicaComCsharp\NumerosAleatorios\NumerosAleatorios\obj\Debug\NumerosAleatorios.csproj.CoreCompileInputs.cache
+C:\Users\victor.cneto1\source\repos\LogicaComCsharp\NumerosAleatorios\NumerosAleatorios\obj\Debug\NumerosAleatorios.exe
+C:\Users\victor.cneto1\source\repos\LogicaComCsharp\NumerosAleatorios\NumerosAleatorios\obj\Debug\NumerosAleatorios.pdb
