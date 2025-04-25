@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\keno.wsmramos\\source\\repos\\LogicaComCsharpTI26\\Atividades array\\Controle de estoque\\",
+  "WorkspaceRootPath": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\Atividades array\\Controle de estoque\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72C6C045-34D1-49F8-A197-88AD2B3F0AE3}|Controle de estoque\\Controle de estoque.csproj|c:\\users\\keno.wsmramos\\source\\repos\\logicacomcsharpti26\\atividades array\\controle de estoque\\controle de estoque\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{72C6C045-34D1-49F8-A197-88AD2B3F0AE3}|Controle de estoque\\Controle de estoque.csproj|c:\\users\\victor.cneto1\\source\\repos\\logicacomcsharp\\atividades array\\controle de estoque\\controle de estoque\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72C6C045-34D1-49F8-A197-88AD2B3F0AE3}|Controle de estoque\\Controle de estoque.csproj|solutionrelative:controle de estoque\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\keno.wsmramos\\source\\repos\\LogicaComCsharpTI26\\Atividades array\\Controle de estoque\\Controle de estoque\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\Atividades array\\Controle de estoque\\Controle de estoque\\Program.cs",
               "RelativeDocumentMoniker": "Controle de estoque\\Program.cs",
-              "ToolTip": "C:\\Users\\keno.wsmramos\\source\\repos\\LogicaComCsharpTI26\\Atividades array\\Controle de estoque\\Controle de estoque\\Program.cs",
-              "RelativeToolTip": "Controle de estoque\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\Atividades array\\Controle de estoque\\Controle de estoque\\Program.cs*",
+              "RelativeToolTip": "Controle de estoque\\Program.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T11:44:34.108Z",
               "EditorCaption": ""

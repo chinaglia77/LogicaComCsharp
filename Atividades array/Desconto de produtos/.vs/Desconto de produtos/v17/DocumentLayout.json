@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\keno.wsmramos\\source\\repos\\LogicaComCsharpTI26\\Atividades array\\Desconto de produtos\\",
+  "WorkspaceRootPath": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\Atividades array\\Desconto de produtos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01509391-AA8C-41DE-87A7-63D18D82A80F}|Desconto de produtos\\Desconto de produtos.csproj|c:\\users\\keno.wsmramos\\source\\repos\\logicacomcsharpti26\\atividades array\\desconto de produtos\\desconto de produtos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{01509391-AA8C-41DE-87A7-63D18D82A80F}|Desconto de produtos\\Desconto de produtos.csproj|c:\\users\\victor.cneto1\\source\\repos\\logicacomcsharp\\atividades array\\desconto de produtos\\desconto de produtos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01509391-AA8C-41DE-87A7-63D18D82A80F}|Desconto de produtos\\Desconto de produtos.csproj|solutionrelative:desconto de produtos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\keno.wsmramos\\source\\repos\\LogicaComCsharpTI26\\Atividades array\\Desconto de produtos\\Desconto de produtos\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\Atividades array\\Desconto de produtos\\Desconto de produtos\\Program.cs",
               "RelativeDocumentMoniker": "Desconto de produtos\\Program.cs",
-              "ToolTip": "C:\\Users\\keno.wsmramos\\source\\repos\\LogicaComCsharpTI26\\Atividades array\\Desconto de produtos\\Desconto de produtos\\Program.cs",
+              "ToolTip": "C:\\Users\\victor.cneto1\\source\\repos\\LogicaComCsharp\\Atividades array\\Desconto de produtos\\Desconto de produtos\\Program.cs",
               "RelativeToolTip": "Desconto de produtos\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wBMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T11:53:43.255Z",
               "EditorCaption": ""

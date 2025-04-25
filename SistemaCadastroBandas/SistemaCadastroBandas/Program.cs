@@ -135,7 +135,6 @@ namespace SistemaCadastroBandas
             Console.ResetColor();
             string nomeAlbum = Console.ReadLine();
 
-
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write($"Quantas músicas o album {nomeAlbum.ToUpper()} possui: ");
             Console.ResetColor();
@@ -149,6 +148,7 @@ namespace SistemaCadastroBandas
             }
 
             Console.Write("\n");
+
             for (int i = 1; i <= qtdMusicas; i++)
             {
                 Console.ForegroundColor = ConsoleColor.Yellow;
