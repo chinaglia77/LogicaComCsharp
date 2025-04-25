@@ -1,7 +1,0 @@
-C:\Users\victor.cneto1\source\repos\LogicaComCsharp\MenuExercicios\MenuExercicios\bin\Debug\MenuExercicios.exe.config
-C:\Users\victor.cneto1\source\repos\LogicaComCsharp\MenuExercicios\MenuExercicios\bin\Debug\MenuExercicios.exe
-C:\Users\victor.cneto1\source\repos\LogicaComCsharp\MenuExercicios\MenuExercicios\bin\Debug\MenuExercicios.pdb
-C:\Users\victor.cneto1\source\repos\LogicaComCsharp\MenuExercicios\MenuExercicios\obj\Debug\MenuExercicios.csproj.AssemblyReference.cache
-C:\Users\victor.cneto1\source\repos\LogicaComCsharp\MenuExercicios\MenuExercicios\obj\Debug\MenuExercicios.csproj.CoreCompileInputs.cache
-C:\Users\victor.cneto1\source\repos\LogicaComCsharp\MenuExercicios\MenuExercicios\obj\Debug\MenuExercicios.exe
-C:\Users\victor.cneto1\source\repos\LogicaComCsharp\MenuExercicios\MenuExercicios\obj\Debug\MenuExercicios.pdb
